@@ -59,5 +59,8 @@ var theAnswer = 42;
 // Write the code that will log the concatenation of the two variables.
 // console.log(`${theQuestion} ${theAnswer}`);
 // Write the code that will log "the universe".
+// console.log(theQuestion.substr(6,12));
 // Write the code that will log the character "l" from theQuestion.
+// console.log(theQuestion[0]);
 // Write the code that will log whether theQuestion.length is greater that theAnswer.
+// console.log(theQuestion.length > theAnswer);
