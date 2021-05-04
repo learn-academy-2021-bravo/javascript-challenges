@@ -8,6 +8,11 @@ This repository holds the vanilla JavaScript pair programming challenges for the
 - Anything in `( )` is informational and not included in the command
 
 
+### Naming Conventions
+- File name: `topic-student1-student2.js` (ex. arrays-austin-sarah.js)
+- Branch name: `topic-initial1-initial2` (ex. arrays-a-s)
+
+
 ### Informational Commands
 Use this informational command to tell you what files have been modified and what phase of the git process you are on:  
 - $ git status  
@@ -33,6 +38,7 @@ Use this command if you need to create a branch that does not currently exist:
 ### Moving to an Existing Local Branch
 Use this informational command to see what branches exist on your local machine:  
 - $ git branch  
+
 Use this command to move to a branch that exist on your local machine:  
 - $ git checkout <branch-name>  
 
