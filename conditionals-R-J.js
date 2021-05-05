@@ -4,9 +4,24 @@
 //
 // Write an if/else statement that takes a variable of trafficLight and logs "go" if the light is green, "slow down" if the light is yellow and "stop" if the light is red.
 //
-// Write an if/else statement that takes two variables of numbers and outputs the larger number, or logs equal if the numbers are the same.
-//
+// Write an if/else statement that takes two variables of numbers and outputs the larger number,
+// or logs equal if the numbers are the same.
+// var num1 =  10
+// var num2 = 20
+// if(num1 === num2){
+//   console.log("equals")
+// } else{
+//   console.log(num1 > num2 ? num1 : num2)
+// }
 // Write an if/else statement that takes a variable of a number and logs whether the number is odd, even, or zero.
+// var num1 = 10
+// if(num1 === 0){
+//   console.log("zero")
+// } else if (num1 % 2 === 0) {
+//   console.log("even")
+// } else {
+//   console.log("odd")
+}
 //
 // STRETCH Challenges
 //
@@ -27,7 +42,11 @@
 //   console.log("keep coding")
 // }
 
-var item = go 
-if(item === green){
-    console.log("go")
-}
+// var trafficLight = "red"
+// if(trafficLight === "green"){
+//     console.log("go")
+// } else if(trafficLight === "yellow"){
+//   console.log("slow down")
+// } else {
+//   console.log("stop")
+// }
