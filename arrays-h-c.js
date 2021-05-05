@@ -28,6 +28,26 @@ console.log(numSet.lastIndexOf(2))
 console.log(numSet.slice(3, 4))
 */
 
-var characters = ["y", "a", "r", "r", "a"]
+/*var characters = ["y", "a", "r", "r", "a"]
 
 console.log(characters.join(""))
+console.log(characters.slice().reverse())
+var charReversed = characters.reverse()
+        console.log(charReversed)
+        console.log(charReversed.join(""))
+        
+
+        var names1 = ["Hector", "Vivean", "Kevin"]
+        var names2 = ["Chris", "Erik", "Marcus"]
+        console.log(names1.sort().reverse(), names2.sort().reverse())
+
+        var names1 = ["Hector", "Vivean", "Kevin"]
+        var names2 = [ "Erik", "Chris", "Marcus"]
+        console.log(names1.concat(names2).sort())
+        
+        var numbers = [42, 221, 71, 7, 18, 87]
+        var oddIndexes = [numbers[1], numbers[3], numbers[5]]
+        console.log(numbers[1], numbers[3], numbers[5])
+        console.log(oddIndexes)
+        */
+
