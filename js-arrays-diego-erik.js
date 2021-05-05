@@ -45,11 +45,15 @@ var numSet = [2, 13, 6, 8, 4, 2]
 
 var characters = ["y", "a", "r", "r", "a"]
 // Write the code that brings all the letters in the characters array together into a string.
-console.log(characters.join(""));
+// console.log(characters.join(""));
 // Write the code that reverses the order of the letters in the characters array and saves it into a variable called charsReversed.
-
+var charsReversed = characters.reverse()
+// console.log(charsReversed);
 // Write the code that brings all the letters in the charsReversed array together into a string with an asterisk between each letter.
-
+console.log(charsReversed.join());
+console.log(charsReversed.join(""));
+console.log(charsReversed.join(" "));
+console.log(charsReversed.join("*"));
 // Write the code that brings all the letters in the charsReversed array together into a string without separators.
 
 // Create two arrays consisting of three first names of your cohort members in each.
