@@ -1,9 +1,13 @@
 // Make sure you try different options and change the variables to ensure properly working code.
 
 // Write an if/else statement that takes a variable of item and logs "in budget" if a price is $100 or less.
-
+var item = 50
+    if(item<=100) {
+        console.log("In budget")
+    }else {console.log("too much")}
 
 // Write an if/else statement that takes a variable of hungry and logs "eat food" if you are hungry and "keep coding" if you are not hungry.
+
 
 // Write an if/else statement that takes a variable of trafficLight and logs "go" if the light is green, "slow down" if the light is yellow and "stop" if the light is red.
 
