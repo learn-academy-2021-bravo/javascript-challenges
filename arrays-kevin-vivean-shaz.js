@@ -48,13 +48,17 @@ var groceryList = ["chips", "dip", "cookies"]
 
 // Write the code that reverses the order of the letters in the characters array and saves it into a variable called charsReversed.
 // console.log(characters.reverse())
-
+var charsReversed = characters.reverse()
+// console.log(charsReversed)
 
 // Write the code that brings all the letters in the charsReversed array together into a string with an asterisk between each letter.
-
+// console.log(charsReversed.join("*"))
 // Write the code that brings all the letters in the charsReversed array together into a string without separators.
+console.log(charsReversed.join(""))
 
 // Create two arrays consisting of three first names of your cohort members in each.
+var learnstudents1 = ["kevin", "vivean", "shaz"]
+var learnstudents2 = ["chris", "hector", "marcus"]
 
 // Write the code that sorts the names in alphabetical order.
 
