@@ -113,7 +113,19 @@
         //   console.log(assignGrade(95));
 
 // Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
+    // write function name isLonger
+    // Takes two strings as arguments
+    // Returns the string that contains the most characters
+    const isLonger = (word1, word2) => {
+        if(word1.length > word2.length) {
 
+        }
+    }
+    isLonger("theword", "theBiggerWord");
+
+    isLonger("theword", "theBiggerWord");
+
+    isLonger();
 // Write a function named greaterNum that takes two numbers as arguments and returns whichever number is the greater (higher) number.
 
 // Write a function named yelling that takes a string as an argument and return the string in all uppercase case letters.
