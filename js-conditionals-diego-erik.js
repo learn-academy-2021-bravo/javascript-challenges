@@ -13,7 +13,9 @@
 // }
 // else{
 //     console.log("keep coding");
+
 // }
+
 // Write an if/else statement that takes a variable of trafficLight and logs "go" if the light is green, "slow down" if the light is yellow and "stop" if the light is red.
 // var trafficLight = "orange"
 // if(trafficLight === "green"){
@@ -38,8 +40,15 @@
 // else if(number1 === number2){
 //     console.log("numbers are the same");
 // }
+
 // Write an if/else statement that takes a variable of a number and logs whether the number is odd, even, or zero.
 
+var number1 = 22
+if(number1%2===0){
+    console.log("number is even");
+} else if(number1%2!===0){
+    console.log("number is odd");
+}
 // STRETCH Challenges
 
 // Write an if/else statement that takes a variable of a grade percentage and logs the letter grade for that percentage, if the grade is 100% log "perfect score", if the grade is zero log "no grade available."
