@@ -88,7 +88,6 @@ const divisibleBy = (num1, num2) => {
    } 
 }
 
-console.log(divisibleBy(10,5));
 
 // Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
 
