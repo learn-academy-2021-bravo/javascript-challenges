@@ -75,7 +75,20 @@ console.log(assignGrade(67));
 // The World Translator
 // (a) Write a function named helloWorld that takes a language code (e.g. "es", "de", "en") as an argument and returns "Hello World!" in the given language. Ensure you function works for at least 5 languages.
 // (b) Have your function default to returning English.
-
+const helloWorld = (language)=>{
+    if(language === "es"){
+        return "hola mundo"
+    }else if(language === "hc"){
+        return "alo mond"
+    }else if (language === "ind"){
+        return "halo dunia"
+    }else if (language === "swa"){
+        return "salamu, dunia"
+    }else{
+        return "hello world!"
+    }
+}
+console.log(helloWorld("swa"))
 // The Pluralizer
 // (a) Write a function named pluralizer that takes a number and a singular noun as arguments and returns the number and pluralized form of the noun, if necessary.
 
