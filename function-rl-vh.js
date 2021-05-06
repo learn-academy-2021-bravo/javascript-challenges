@@ -5,20 +5,20 @@
 //named marco
 //That outputs polo
 
-const marco = () => {
-    return "polo"
-}
-console.log(marco())
+// const marco = () => {
+//     return "polo"
+// }
+// console.log(marco())
 
 // Write a function named greeting that takes a name as an argument and returns "Welcome, <person's name here>!"
 // write a function that takes in a parameter of a name 
 //give argument
 //use string interpolation 
 
-const greeting = (name) =>{
-    return `Welcome, ${name}`
-}
-console.log(greeting("Viv"))
+// const greeting = (name) =>{
+//     return `Welcome, ${name}`
+// }
+// console.log(greeting("Viv"))
 
 
 
@@ -29,19 +29,19 @@ console.log(greeting("Viv"))
 //return the string odd or even
 
 
-const oddOrEven = (num) => {
-    if(typeof num !== "number"){
-        return "Not a number"
-    }
+// const oddOrEven = (num) => {
+//     if(typeof num !== "number"){
+//         return "Not a number"
+//     }
 
-    if(num % 2 === 0){
-        return "Even"
-    }
-    else{
-        return "Odd"
-    }
-}
-console.log(oddOrEven("Hi"))
+//     if(num % 2 === 0){
+//         return "Even"
+//     }
+//     else{
+//         return "Odd"
+//     }
+// }
+// console.log(oddOrEven("Hi"))
 
 
 
@@ -50,25 +50,45 @@ console.log(oddOrEven("Hi"))
 // Write a function named triple that takes a number as an argument and returns the result of that number multiplied by 3.
 //create a function that takes in only numbers
 //check variables to make sure that is't a number 
-const triple = (num) => {
-    if(typeof num !== "number"){
-        return "Not a number"
-    }
+// const triple = (num) => {
+//     if(typeof num !== "number"){
+//         return "Not a number"
+//     }
 
-   return num * 3
+//    return num * 3
+// }
+
+
+// Write a function named multiply that takes two numbers as arguments 
+//and returns the result of the numbers multiplied together.
+//write a function that is named multiply
+//need two place holders for two arguments
+//want function to return the outcome of two numbers multiplied together
+
+// const multiply = (num1, num2) =>{
+//     if(typeof num1 !== "number" || typeof num2 !== "number"){
+//         return "wrong input"
+//     }
+//     return num1 * num2;
+// }
+
+// console.log(multiply(`hello`,4));
+
+
+// Write a function named divisibleBy that takes two numbers as arguments and returns
+// whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
+
+// Need to create function divisible by that takes in two numbers as arguments
+// place holder for two arguments return evenly divisible 
+// need to create an if statement 
+
+const divisibleBy = (num1, num2) => {
+   if(num1 % num2){
+     return "10 is evenly divisible by 5";
+   } 
 }
 
-
-
-
-
-
-
-
-
-// Write a function named multiply that takes two numbers as arguments and returns the result of the numbers multiplied together.
-
-// Write a function named divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
+console.log(divisibleBy(10,5));
 
 // Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
 
