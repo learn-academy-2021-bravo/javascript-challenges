@@ -17,23 +17,34 @@
 //     }
 // }
 // Looping over an array. Consider this variable:
-                        i
-            0  1    2   3   4  5
-var nums = [3, 57, -9, 20, 67, 8]
+//             i
+// 0  1    2   3   4  5
+var nums = [3, 57, -9, 20, 67, 8];
 
 // Create a loop that will log the highest number from the array. Expected output --> 67
-var big = nums[0]
-for(i = 1; i< nums.length; i++){
-    if(big<nums[i]){
-        big = nums[i]
-    }
-}
-console.log(big)
+// var big = nums[0]
+// for(i = 1; i< nums.length; i++){
+//     if(big<nums[i]){
+//         big = nums[i]
+//     }
+// }
+// console.log(big)
+
 // Create a loop that will log the lowest number from the array Expected output --> -9
+// let small = nums[0];
+// for (i = 1; i < nums.length; i++) {
+//   if (small > nums[i]) {
+//     small = nums[i];
+//   }
+// }
+// console.log(small);
+
 // Create a loop that will log the remainder of each number when divided by 2. Expected output --> 1, 1, -1, 0, 1
+
 // Looping over a string. Consider this variable:
-// var myString = "learn student"
+var myString = "learn student";
 // Write the code that will log the number of times the letter "e" occurs in the string. Expected output --> 2
+
 // STRETCH Challenges
 // Even or Odd: Write a for loop that iterates from 0 to 15. For each iteration, it will check if the current number is odd or even, and display the appropriate outcome. Expected output --> "0 is even" "1 is odd" "2 is even" ...etc
 // Fizz Buzz: Use a for loop to log all numbers from 1-100. If a number is a multiple of 3, replace it with the word fizz. If a number is a multiple of five, replace it with the word buzz. If a number is a multiple of both 3 and 5, replace it with fizzbuzz. Expected output --> 1, 2, "fizz", 4, "buzz", "fizz", 7, 8, "fizz", "buzz", 11, "fizz", 13, 14, "fizzbuzz" ...etc
