@@ -93,6 +93,11 @@
 // (a) Write a function named helloWorld that takes a language code (e.g. "es", "de", "en") as an argument and returns "Hello World!" in the given language. Ensure you function works for at least 5 languages.
 // (b) Have your function default to returning English.
 
+// const helloWorld = (languageCode) => {
+//      returns "Hello World!"
+// }
+//      console.log(helloWorld(de))
+
 // The Pluralizer
 // (a) Write a function named pluralizer that takes a number and a singular noun as arguments and returns the number and pluralized form of the noun, if necessary.
 
