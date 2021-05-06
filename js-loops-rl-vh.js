@@ -22,7 +22,7 @@
 
 // Looping over an array. Consider this variable: 
            //  0   1   2  3   4
-           var nums = [3, 57, -9, 20, 67] 
+        //    var nums = [3, 57, -9, 20, 67] 
            // Create a loop that will log the highest number from the array. Expected output --> 67
            // for(let i = 0; i < nums.length; i++){
            //    console.log(nums[i]); 
@@ -43,22 +43,21 @@
            // Write the code that will log the number of times the letter "e" occurs in the string. 
            //Expected output --> 2
            
-           let count = 0;
-           var myString = "learn student"  
+        //    let count = 0;
+        //    var myString = "learn student"  
            
-           for(let i = 0; i < myString.length; i++){
-               if(myString[i] === `e`){
-                  count++
-               }
-               console.log(count);
-           }
+        //    for(let i = 0; i < myString.length; i++){
+        //        if(myString[i] === `e`){
+        //           count++
+        //        }
+        //        console.log(count);
+        //    }
            
            
            
            // STRETCH Challenges
            // Even or Odd: Write a for loop that iterates from 0 to 15. For each iteration, it will check if the current number is odd or even, and display the appropriate outcome. Expected output --> "0 is even" "1 is odd" "2 is even" ...etc
            // Fizz Buzz: Use a for loop to log all numbers from 1-100. If a number is a multiple of 3, replace it with the word fizz. If a number is a multiple of five, replace it with the word buzz. If a number is a multiple of both 3 and 5, replace it with fizzbuzz. Expected output --> 1, 2, "fizz", 4, "buzz", "fizz", 7, 8, "fizz", "buzz", 11, "fizz", 13, 14, "fizzbuzz" ...etc
-           
            
            
            
