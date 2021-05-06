@@ -1,12 +1,27 @@
-// Challenges
-
-// Copy the challenges into your JavaScript file. Comment out the instructions and code the solution to each problem beneath the prompt. Each solution requires pseudocode. Test your functions with multiple function calls.
-
 // Write a function named marco that returns "polo".
+// const marco = () => {
+//   return "polo";
+// };
+// console.log(marco());
 
 // Write a function named greeting that takes a name as an argument and returns "Welcome, <person's name here>!"
 
+// const greeting = (person) => {
+//   return `welcome ${person}`;
+// };
+// console.log(greeting("sam"));
+
 // Write a function named oddOrEven that takes a number as an argument and returns whether the number is odd or even.
+// const oddOrEven = (number) => {
+//   if (number % 2 === 0) {
+//     return `even`;
+//   } else if (number % 2 === 1) {
+//     return `odd`;
+//   } else {
+//     return `${number} is not valid`;
+//   }
+// };
+// console.log(oddOrEven("twelve"));
 
 // Write a function named triple that takes a number as an argument and returns the result of that number multiplied by 3.
 
