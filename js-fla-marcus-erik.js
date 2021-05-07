@@ -1,25 +1,48 @@
 // DON'T FORGET TO PSEUDO CODE
 
 // Write a function that takes in an array and returns a new array with all numbers multiplied by 3.
-var testArr1 = [3, 9, 15, 4, 10]
-//Create a function that takes a parameter
-const timesThree = (arr) => {
-    let timesNum = [];
-    for (i = 0; i<arr.length; i++){
-        timesNum.push(arr[i]*3)
-    }
-    return timesNum
-} 
-console.log(timesThree(testArr1));
-// Expected output --> [9, 27, 45, 12, 30]
+        // var testArr1 = [3, 9, 15, 4, 10]
+        // //Create a function that takes a parameter
+        // const timesThree = (arr) => {
+        //     let timesNum = [];
+        //     for (i = 0; i<arr.length; i++){
+        //         timesNum.push(arr[i]*3)
+        //     }
+        //     return timesNum
+        // } 
+        // console.log(timesThree(testArr1));
+        // // Expected output --> [9, 27, 45, 12, 30]
 
 // Write a function that takes in an array and returns a new array with only odd numbers.
-// var testArr2 = [0, 2, -7, 3, 5, 8, 10, 13]
+        // let testArr2 = [0, 2, -7, 3, 5, 8, 10, 13];
 
-// Expected output --> [-7, 3, 5, 13]
+        // // declare function that takes in an array
+        // const findOddNums = (arr) => {
+        //     // make new array
+        //     let oddNums = [];
+        //     // find odd nums in array that's passed in
+        //     for(let i = 0; i < arr.length; i++) {
+        //         // find out what nums are odd
+        //         if(arr[i] % 2 !== 0) {
+        //             // push to the new array
+        //             oddNums.push(arr[i]);
+        //         }
+        //     }
+        //     return oddNums;
+
+        // }
+        // console.log(findOddNums(testArr2));
+
+        // // Expected output --> [-7, 3, 5, 13]
 
 // Write a function that takes in a string and returns a new string with every letter capitalized. HINT: you do not need arrays or loops.
-// var myMessage = "Hello There"
+let myMessage = "Hello There";
+
+const uppercaseTheWord = (str) => {
+    let finalUpperCase = str.toUpperCase();
+    return finalUpperCase;
+}
+console.log(uppercaseTheWord(myMessage));
 
 // Expected output --> "HELLO THERE"
 
