@@ -67,26 +67,51 @@
 // };
 
 // 5. Write the test for a function that takes in one argument(number) and returns whether the number is odd.
-describe("checking for odd number", () => {
-  let num1 = 25;
-  let num2 = 20;
-  test("should test id number is odd", () => {
-    expect(isOdd(num1)).toEqual(true);
-    expect(isOdd(num2)).toEqual(false);
-  });
-});
-// Write the function that will make the test pass.
-const isOdd = (number) => {
-  if (number % 2 === 1) {
-    return true;
-  } else {
-    return false;
-  }
-};
-// 6. Write the test for a function that takes in a fruit and returns "yellow" if the argument is banana, "red" if apple and "purple" if grape.
+// describe("checking for odd number", () => {
+//   let num1 = 25;
+//   let num2 = 20;
+//   test("should test id number is odd", () => {
+//     expect(isOdd(num1)).toEqual(true);
+//     expect(isOdd(num2)).toEqual(false);
+//   });
+// });
+// // Write the function that will make the test pass.
+// const isOdd = (number) => {
+//   if (number % 2 === 1) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// };
+// // 6. Write the test for a function that takes in a fruit and returns "yellow" if the argument is banana, "red" if apple and "purple" if grape.
+// describe("check for color of fruit", () => {
+//   test("should fruit and returns yellow if the argument is banana, red if apple and purple if grape.", () => {
+//     expect(testColor("banana")).toEqual("yellow");
+//     expect(testColor("apple")).toEqual("red");
+//     expect(testColor("grape")).toEqual("purple");
+//   });
+// });
+// const testColor = (fruit) => {
+//   if(fruit === "banana") {
+//     return "yellow";
+//   } else if (fruit === "apple") {
+//     return "red";
+//   } else if (fruit === "grape") {
+//     return "purple";
+//   }
+// }
+
 
 // Write the function that will make the test pass.
 // 7. Write the test for a function called rick that returns "Morty".
+// describe("returns Morty", () => {
+//   test("should return Morty", () => {
+//     expect(rick()).toEqual("Morty");
+//   });
+// })
+// const rick = () => {
+//   return "Morty";
+// }
 
 // Write the function that will make the test pass.
 // 8. Write the test for a function called greeter that takes a name as an argument and returns a greeting with that name to the screen.
@@ -103,7 +128,38 @@ const isOdd = (number) => {
 // Write the function that will make the test pass.
 // 12. Write the test for a function called divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
 
+describe("if divisible", ()=> {
+  test("first number is evenly divisible by the second", () => {
+    expect(divisibleBy(4, 2)).toEqual("4 is divisible by 2");
+  });
+});
+
+const divisibleBy = (num1, num2) => {
+  if(num1 % num2 === 0) {
+    return `${num1} is divisible by ${num2}`;
+  }
+}
+
 // Write the function that will make the test pass.
 // 13. Write the test for a function called fizzbuzz. If a number is a multiple of 3, replace it with the word 'fizz'. If a number is a multiple of five, replace it with the word 'buzz'. If a number is a multiple of both 3 and 5, replace it with 'fizzbuzz'.
+
+// describe("fizzbuzz", () => {
+//   test("If a number is a multiple of 3, replace it with the word 'fizz'. If a number is a multiple of five, replace it with the word 'buzz'. If a number is a multiple of both 3 and 5, replace it with 'fizzbuzz'.", () => {
+//     expect(fizzBuzz(15)).toEqual(1, 2, "fizz", 4, "buzz", "fizz", 7, 8, "fizz", "buzz", 11, "fizz", 13, 14, "fizzbuzz");
+//   })
+// })
+// const fizzBuzz = (int) => {
+//   for(let i = 1; i <= 15; i++) {
+//     if(i % 3 === 0) {
+//       return "fizz";
+//     } else if (i % 5 === 0) {
+//       return "buzz"
+//     } else if (i % 3 === 0 && i % 5 === 0) {
+//       return "fizzbuzz";
+//     } else {
+//       return i;
+//     }
+//   }
+// }
 
 // Write the function that will make the test pass.
