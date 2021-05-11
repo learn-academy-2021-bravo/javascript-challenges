@@ -67,8 +67,22 @@
 // };
 
 // 5. Write the test for a function that takes in one argument(number) and returns whether the number is odd.
-
+describe("checking for odd number", () => {
+  let num1 = 25;
+  let num2 = 20;
+  test("should test id number is odd", () => {
+    expect(isOdd(num1)).toEqual(true);
+    expect(isOdd(num2)).toEqual(false);
+  });
+});
 // Write the function that will make the test pass.
+const isOdd = (number) => {
+  if (number % 2 === 1) {
+    return true;
+  } else {
+    return false;
+  }
+};
 // 6. Write the test for a function that takes in a fruit and returns "yellow" if the argument is banana, "red" if apple and "purple" if grape.
 
 // Write the function that will make the test pass.
