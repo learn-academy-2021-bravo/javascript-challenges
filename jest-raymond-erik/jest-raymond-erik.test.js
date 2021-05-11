@@ -20,17 +20,17 @@ const { TestScheduler } = require("@jest/core")
 //     }
 // }
 // Write the function that will make the test pass.
-// 2. Write the test for a function that returns "relax" if you are stressed and "keep going" if you are not stressed.
+2. Write the test for a function that returns "relax" if you are stressed and "keep going" if you are not stressed.
 
-// describe ("stressor", ()=>{
-//     test ("returns relax if you are stressed, keep going if not stressed", () =>{
-//         expect(stressor("stressed")).toEqual("relax")
-//         expect(stressor("not stressed")).toEqual("keep going")
-//     })
-// })
-// const stressor = (stress) =>{
-//     return stress === "stressed" ? "relax" : "keep going"
-// }
+describe ("stressor", ()=>{
+    test ("returns relax if you are stressed, keep going if not stressed", () =>{
+        expect(stressor("stressed")).toEqual("relax")
+        expect(stressor("not stressed")).toEqual("keep going")
+    })
+})
+const stressor = (stress) =>{
+    return stress === "stressed" ? "relax" : "keep going"
+}
 
 // Write the function that will make the test pass.
 // 3. Write the test for a function that returns "in budget" if a price is lower than $300.
