@@ -83,9 +83,8 @@
 
 const arr = arr1.concat(arr2);
 
-const noDuplicates = arr.filter((value) =>{
-
-    return arr.indexOf(value) === arr.lastIndexOf(value);
+const noDuplicates = arr.filter((value, index, array) =>{
+   return array.indexOf(value) === index;
 });
 
 
