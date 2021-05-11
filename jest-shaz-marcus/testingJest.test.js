@@ -101,7 +101,6 @@
 //   }
 // }
 
-
 // Write the function that will make the test pass.
 // 7. Write the test for a function called rick that returns "Morty".
 // describe("returns Morty", () => {
@@ -124,21 +123,28 @@
 
 // Write the function that will make the test pass.
 // 11. Write the test for a function called multiply that takes two numbers as arguments and logs the result of one of the numbers multiplied by the other.
-
-// Write the function that will make the test pass.
-// 12. Write the test for a function called divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
-
-describe("if divisible", ()=> {
-  test("first number is evenly divisible by the second", () => {
-    expect(divisibleBy(4, 2)).toEqual("4 is divisible by 2");
+describe("take two numbers and multiply them to one another", () => {
+  test("should take two numbers as arguments and logs the result of one of the numbers multiplied by the other", () => {
+    expect(multBy(3, 3)).toEqual(9);
   });
 });
+// Write the function that will make the test pass.
+const multBy = (num1, num2) => {
+  return num1 * num2;
+};
+// 12. Write the test for a function called divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
 
-const divisibleBy = (num1, num2) => {
-  if(num1 % num2 === 0) {
-    return `${num1} is divisible by ${num2}`;
-  }
-}
+// describe("if divisible", () => {
+//   test("first number is evenly divisible by the second", () => {
+//     expect(divisibleBy(4, 2)).toEqual("4 is divisible by 2");
+//   });
+// });
+
+// const divisibleBy = (num1, num2) => {
+//   if (num1 % num2 === 0) {
+//     return `${num1} is divisible by ${num2}`;
+//   }
+// };
 
 // Write the function that will make the test pass.
 // 13. Write the test for a function called fizzbuzz. If a number is a multiple of 3, replace it with the word 'fizz'. If a number is a multiple of five, replace it with the word 'buzz'. If a number is a multiple of both 3 and 5, replace it with 'fizzbuzz'.
