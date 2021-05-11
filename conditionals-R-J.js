@@ -45,7 +45,7 @@
     // } else {
     //     console.log("no grade available");
     // }
-
+//
 // Write an if/else statement that takes a variable of a boolean, number, or string datatype
 //and logs the data type of the variable HINT: use the JS operator typeof.
 // var variable = 10;
