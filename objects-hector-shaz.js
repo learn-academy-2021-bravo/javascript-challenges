@@ -1,30 +1,48 @@
 // // Consider this variable:
-var person = {
-  firstName: "Arthur",
-  lastName: "Dent"
-}
-// // Write the code that accesses the first name of the person object.
-// console.log(person.firstName)
-// // Write the code that accesses the last name of the person object.
-// console.log(person.lastName)
-// // Write the code that gives the person object a property of homePlanet and set it to 'Earth'.
-// person["homePlanet"] = "Earth"
-// console.log(person.homePlanet)
-// // Update the person object with a method that logs "Arthur Dent is from planet Earth".
-// Consider this variable:
-// var product = {
-//   name: "chair", price: 14.99
+//  var person = {
+//    firstName: "Arthur",
+//    lastName: "Dent"
+
+// // // Write the code that accesses the first name of the person object.
+// // console.log(person.firstName)
+// // // Write the code that accesses the last name of the person object.
+// // console.log(person.lastName)
+// // // Write the code that gives the person object a property of homePlanet and set it to 'Earth'.
+//  person["homePlanet"] = "Earth"
+//  //console.log(person.homePlanet)
+// // // Update the person object with a method that logs "Arthur Dent is from planet Earth".
+// person["message"] = function(){
+//   return `${this.firstName} ${this.lastName} is from ${this.homePlanet}`
 // }
+// console.log(person.message()) }
+// Consider this variable:
+//  var product = {
+//    name: "chair", price: 14.99
+//  }
 // Write a function called describeProduct takes product as an argument and logs "The product is a chair. It costs $14.99".
+// const describeProduct = (item) => {
+//   return `The product is a ${item.name}. It costs $${item.price}`;
+// };
+// console.log(describeProduct(product))
 // Consider this variable:
-// var lunch = {
-//   name: "PB and Banana",
-//   type: "sandwich",
-//   ingredients: ["bread", "peanut butter", "banana"]
-// }
+var lunch = {
+  name: "PB and Banana",
+  type: "sandwich",
+  ingredients: ["bread", "peanut butter", "banana"],
+};
 // Write the code that accesses the ingredients property.
+// let ingredients = lunch.ingredients;
+// console.log(ingredients);
 // Write the code that access the 3rd ingredient of the lunch object.
+// console.log(lunch.ingredients[2]);
 // Write a function that takes the lunch object as an argument and returns "The ingredients for a PB and Banana sandwich are bread, peanut butter, and banana."
+const pbSandwich = (information) => {
+  // for (let i = 0; i < information.ingredients.length; i++) {
+  //   console.log(information.ingredients[i]);
+  // }
+  return `The ingredients for a ${information.name} ${information.type} are ${information.ingredients[0]}`;
+};
+console.log(pbSandwich(lunch));
 // Update the lunch object with method that returns "The ingredients for a PB and Banana sandwich are bread, peanut butter, and banana."
 // Consider this variable:
 // var animals = [
